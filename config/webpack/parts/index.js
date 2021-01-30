@@ -1,0 +1,12 @@
+exports.clean = require('./clean');
+exports.css = require('./css');
+exports.defineEnvVars = require('./defineEnvVars');
+exports.devServer = require('./devServer');
+exports.extractCSS = require('./extractCSS');
+exports.fonts = require('./fonts');
+exports.generateSourceMaps = require('./generateSourceMaps');
+exports.images = require('./images');
+exports.javaScript = require('./javaScript');
+exports.minifyJavaScript = require('./minifyJavaScript');
+exports.page = require('./page');
+exports.svg = require('./svg');

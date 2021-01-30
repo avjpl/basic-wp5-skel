@@ -1,0 +1,13 @@
+@import '@cssVariables';
+
+.bg {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+  color: var(--red);
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-xxl);
+}
