@@ -8,10 +8,12 @@ const getConfig = (mode) => {
 
   switch (mode) {
     case 'production': {
+      console.info(`${mode} build`);
       const productionConfig = require('./config/webpack/webpack.production');
       return merge(commonConfig(mode), productionConfig, { mode });
     }
     case 'development': {
+      console.info(`${mode} build`);
       const developmentConfig = require('./config/webpack/webpack.development');
       return merge(commonConfig(mode), developmentConfig, { mode });
     }

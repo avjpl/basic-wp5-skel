@@ -1,6 +1,5 @@
 exports.clean = require('./clean');
 exports.css = require('./css');
-exports.defineEnvVars = require('./defineEnvVars');
 exports.devServer = require('./devServer');
 exports.extractCSS = require('./extractCSS');
 exports.fonts = require('./fonts');

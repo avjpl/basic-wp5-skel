@@ -10,7 +10,7 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "lint": "eslint --ignore-path .gitignore src/**/*.js",
-    "prettier": "prettier --ignore-path .gitignore \"src/**/*.+(js|json)\"",
+    "prettier": "prettier --ignore-path .gitignore \"src/**/*.+(js|json)\" \"config/**/*.+(js|json)\"",
     "format": "yarn prettier -- --write",
     "format:check": "yarn prettier -- --check",
     "ci:build": "npm-run-all --parallel format:check lint build"
@@ -37,6 +37,7 @@
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^5.0.1",
     "css-minimizer-webpack-plugin": "^1.2.0",
+    "dotenv-webpack": "^6.0.0",
     "eslint": "^7.18.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-loader": "^4.0.2",

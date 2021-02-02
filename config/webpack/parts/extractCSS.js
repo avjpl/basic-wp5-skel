@@ -21,7 +21,7 @@ module.exports = () => {
                 esModule: true,
                 modules: {
                   localIdentName: '[name]__[local]--[contenthash:base64:5]',
-                  exportLocalsConvention: 'camelCaseOnly'
+                  exportLocalsConvention: 'camelCaseOnly',
                 },
               },
             },
